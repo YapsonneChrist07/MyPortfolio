@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full stack developer portfolio and learning journal.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <title>Post | Assi Christ Yapi</title>
+</head>
+<body>
+    <div class="bg-glow"></div>
+
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">&lt;/&gt;</span>
+                Assi Christ Yapi
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="blog.html" class="active" aria-current="page">Blog</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="assets/resume.pdf" class="btn btn-small" download>Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="section container page-top post">
+            <a href="blog.html" class="back">← All posts</a>
+
+            <header>
+                <div class="meta" id="post-meta"></div>
+                <h1 class="page-title" id="post-title">Post not found</h1>
+                <div class="tags" id="post-tags"></div>
+            </header>
+
+            <div class="prose" id="post-content"></div>
+            <nav class="post-nav" id="post-nav"></nav>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Assi Christ Yapi. Built with HTML, CSS &amp; JS.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/post.js"></script>
+</body>
+</html>

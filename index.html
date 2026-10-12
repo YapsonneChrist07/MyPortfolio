@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full stack developer portfolio and learning journal.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <title>Assi Christ Yapi | Full Stack Developer</title>
+</head>
+<body>
+    <div class="bg-glow"></div>
+
+    <header class="nav">
+        <div class="container nav-inner">
+            <a href="index.html" class="brand">
+                <span class="brand-mark">&lt;/&gt;</span>
+                Assi Christ Yapi
+            </a>
+
+            <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links">
+                <a href="index.html#about">About</a>
+                <a href="index.html#projects">Projects</a>
+                <a href="blog.html">Blog</a>
+                <a href="index.html#contact">Contact</a>
+                <a href="assets/resume.pdf" class="btn btn-small" download>Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <div class="hero-photo" style="background-image: url('assets/profile.jpeg');" aria-hidden="true"></div>
+            <p class="eyebrow">Hi, I'm</p>
+            <h1><span class="gradient-text">Assi Christ Yapi</span></h1>
+            <h2 class="hero-role">Full Stack Developer</h2>
+            <p class="hero-tagline">I build fast, accessible web apps end to end, from PostgreSQL schemas and Node.js APIs to React interfaces.</p>
+
+            <div class="hero-actions">
+                <a class="btn" href="assets/resume.pdf" download>Download resume</a>
+                <a class="btn btn-ghost" href="blog.html">Read the blog →</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/assi-christ-yapi-3078a72ab/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/YapsonneChrist07" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:yapi.assichrist@gmail.com">Email</a>
+            </div>
+        </section>
+
+        <section id="about" class="section container">
+            <h2 class="section-title"><span class="num">01</span> About</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm a final-year Computer Science bachelor's student at the Université Internationale de Grand-Bassam, passionate about software development and technology. My studies gave me a solid base in programming, systems architecture and database management.</p>
+                    <p>As a test automation intern at GUCE CI, I designed and built automated test scenarios with Selenium and Robot Framework covering 3 critical modules of the platform, wrote test plans from functional specs, and documented bugs for the development team.</p>
+                    <p>I'm now growing into a full stack developer, and I'm documenting the journey on the blog: what I build, what breaks, and what I learn fixing it.</p>
+                    <p class="muted">Based in Abidjan, Côte d'Ivoire.</p>
+                </div>
+                <div class="skills" id="skills-list"></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section container">
+            <h2 class="section-title"><span class="num">02</span> Projects</h2>
+            <div class="grid" id="projects-grid"></div>
+        </section>
+
+        <section class="section container">
+            <div class="section-head">
+                <h2 class="section-title"><span class="num">03</span> Latest from the blog</h2>
+                <a href="blog.html" class="link-arrow">All posts →</a>
+            </div>
+
+            <div class="grid" id="latest-posts"></div>
+        </section>
+
+        <section id="contact" class="section container">
+            <div class="card contact">
+                <h2 class="section-title"><span class="num">04</span> Let's work together</h2>
+                <p class="contact-text">I'm currently looking for new opportunities. If you have a project in mind, or just want to say hi, my inbox is always open.</p>
+                <div class="hero-actions">
+                    <a href="mailto:yapi.assichrist@gmail.com" class="btn">yapi.assichrist@gmail.com</a>
+                    <a href="assets/resume.pdf" class="btn btn-ghost" download>Resume (PDF)</a>
+                </div>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/assi-christ-yapi-3078a72ab/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://github.com/YapsonneChrist07" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="mailto:yapi.assichrist@gmail.com">Email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Assi Christ Yapi. Built with HTML, CSS &amp; JS.</p>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
